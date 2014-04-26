@@ -1,4 +1,4 @@
-#line 1 "C:/Users/Prometheus/Documents/GitHub/Barometers/I2C_testing_1.c"
+#line 1 "C:/Users/dell/Documents/GitHub/Barometers/I2C_testing_1.c"
 
 
 
@@ -165,7 +165,7 @@ void read_Press(){
 }
 
 void calc_Temp(){
-#line 170 "C:/Users/Prometheus/Documents/GitHub/Barometers/I2C_testing_1.c"
+#line 170 "C:/Users/dell/Documents/GitHub/Barometers/I2C_testing_1.c"
  X1 = (UT - AC6) * AC5/32768;
  X2 = ((long)MC * 2048)/(X1 + (long)MD);
  B_5 = X1 + X2;
@@ -174,7 +174,7 @@ void calc_Temp(){
 }
 
 void calc_Press(){
-#line 181 "C:/Users/Prometheus/Documents/GitHub/Barometers/I2C_testing_1.c"
+#line 181 "C:/Users/dell/Documents/GitHub/Barometers/I2C_testing_1.c"
  B_6 = B_5 - 4000;
  X1 = ((long)B_2 * (B_6 * B_6 / 4096))/2048;
  X2 = (long)AC2 * B_6 / 2048;

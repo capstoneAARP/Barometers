@@ -6,7 +6,7 @@ Value=0
 [BUILD_TYPE]
 Value=0
 [ACTIVE_TAB]
-Value=..\AARPCopter\Source\FlightControl.c
+Value=I2C_testing_1.c
 [USE_EEPROM]
 Value=0
 [USE_HEAP]
@@ -24,10 +24,8 @@ Count=0
 Count=0
 ActiveImageIndex=-1
 [OPENED_FILES]
-Count=3
+Count=1
 File0=I2C_testing_1.c
-File1=..\AARPCopter\Source\FlightControl.c
-File2=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\__Lib_GPIO_32F10x_Defs.c
 [EEPROM]
 Count=0
 [ACTIVE_COMMENTS_FILES]
@@ -35,10 +33,11 @@ Count=0
 [OTHER_FILES]
 Count=0
 [SEARCH_PATH]
-Count=3
+Count=4
 Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\defs\
-Path1=C:\Users\Prometheus\Documents\GitHub\Barometers\
-Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\
+Path1=C:\Users\dell\Documents\GitHub\Barometers\
+Path2=C:\Users\Prometheus\Documents\GitHub\Barometers\
+Path3=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\
 [HEADER_PATH]
 Count=0
 [HEADERS]
