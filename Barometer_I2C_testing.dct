@@ -3154,6 +3154,12 @@ abrq2
 abrq2
 abrq2_bit
 abrq2_can1_tsr_bit
+ac1
+ac2
+ac3
+ac4
+ac5
+ac6
 ack
 ack
 ack
@@ -4330,6 +4336,13 @@ awum
 awum
 awum_bit
 awum_can1_mcr_bit
+b_1
+b_2
+b_3
+b_4
+b_5
+b_6
+b_7
 b0
 b1
 b10
@@ -5452,6 +5465,9 @@ cal5
 cal5_bit
 cal6
 cal6_bit
+calc_press
+calc_temp
+calibrate_bmp085
 can_remap
 can_remap0
 can_remap0_bit
@@ -10939,6 +10955,7 @@ daif_bit
 data
 data
 data
+data_
 data0
 data0
 data0
@@ -15187,6 +15204,7 @@ fe_uart4_sr_bit
 fe_uart5_sr_bit
 fe_usart2_sr_bit
 fe_usart3_sr_bit
+feet
 fef
 fef
 fef_bit
@@ -16175,6 +16193,7 @@ hnprq_bit
 hnsschg
 hnsschg
 hnsschg_bit
+holder_
 hpf
 hpf
 hpf_bit
@@ -16765,6 +16784,7 @@ htl9_bit
 hu
 hu
 hu_bit
+i
 i2c_read
 i2c_read_ptr
 i2c_set_active
@@ -17905,6 +17925,7 @@ ineptxsa9
 ineptxsa9_bit
 ineptxsa9_usb_otg_global_fs_dieptxf2_bit
 ineptxsa9_usb_otg_global_fs_dieptxf3_bit
+init_altadj
 inrq
 inrq
 inrq
@@ -18748,6 +18769,8 @@ jswstart
 jswstart_adc2_cr2_bit
 jswstart_adc3_cr2_bit
 jswstart_bit
+kalman_init
+kalman_update
 key
 key0
 key0_bit
@@ -19193,6 +19216,8 @@ lpwrrstf
 lpwrrstf
 lpwrrstf_bit
 lr
+lsb
+lsb_
 lsbfirst
 lsbfirst
 lsbfirst
@@ -20099,6 +20124,7 @@ maca3h8
 maca3h8_bit
 maca3h9
 maca3h9_bit
+main
 mamp1
 mamp10
 mamp10_bit
@@ -20212,6 +20238,8 @@ mbca3l8
 mbca3l8_bit
 mbca3l9
 mbca3l9_bit
+mbx
+mc
 mcf
 mcf
 mcf_bit
@@ -20264,6 +20292,7 @@ mco1
 mco1_bit
 mco2
 mco2_bit
+md
 md
 md0
 md0_bit
@@ -20399,6 +20428,7 @@ mfc8
 mfc8_bit
 mfc9
 mfc9_bit
+millibar
 minc
 minc
 minc
@@ -21204,6 +21234,8 @@ mr9
 mr9
 mr9_bit
 mr9_exti_emr_bit
+msb
+msb_
 msize
 msize
 msize
@@ -21616,6 +21648,9 @@ ne_uart4_sr_bit
 ne_uart5_sr_bit
 ne_usart2_sr_bit
 ne_usart3_sr_bit
+new_barometer
+new_feet
+newb_
 nis
 nis
 nis_bit
@@ -22730,6 +22765,7 @@ ore_usart3_sr_bit
 osf
 osf
 osf_bit
+oss
 ossi
 ossi
 ossi
@@ -22789,6 +22825,7 @@ owf_bit
 owie
 owie
 owie_bit
+p
 pa
 pa
 pa
@@ -26077,6 +26114,8 @@ re_uart4_cr1_bit
 re_uart5_cr1_bit
 re_usart2_cr1_bit
 re_usart3_cr1_bit
+read_press
+read_temp
 rec
 rec
 rec0
@@ -28544,6 +28583,7 @@ ssoe_spi3_cr2_bit
 st
 st
 st_bit
+stabilize_bmp085
 stall
 stall
 stall
@@ -29415,6 +29455,7 @@ teif7
 teif7
 teif7_bit
 teif7_dma2_isr_bit
+temp
 ten1
 ten1
 ten1_bit
@@ -31940,6 +31981,7 @@ undefinstr_bit
 unstkerr
 unstkerr
 unstkerr_bit
+up
 upfd
 upfd
 upfd_bit
@@ -32289,6 +32331,7 @@ usgfaultena_bit
 usp
 usp
 usp_bit
+ut
 variant
 variant0
 variant0_bit
@@ -32626,6 +32669,9 @@ wwdgrst_bit
 wwdgrstf
 wwdgrstf
 wwdgrstf_bit
+x1
+x2
+x3
 xfrc
 xfrc
 xfrc
@@ -32995,6 +33041,7 @@ xfrsiz9_usb_otg_host_fs_hctsiz4_bit
 xfrsiz9_usb_otg_host_fs_hctsiz5_bit
 xfrsiz9_usb_otg_host_fs_hctsiz6_bit
 xfrsiz9_usb_otg_host_fs_hctsiz7_bit
+xlsb_
 zqpd
 zqpd
 zqpd_bit
